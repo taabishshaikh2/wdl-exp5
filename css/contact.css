@@ -1,0 +1,791 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+ 
+}
+body{
+    background: linear-gradient(180deg, #FFE9E9 0%, rgba(255, 0, 0, 0) 100%);
+    position: relative;
+    width: 1440px;
+    height: 1024px;
+}
+.main{
+    position: absolute;
+    width: 967px;
+    height: 864px;
+    left: 296px;
+    top: 85px;
+    background: #FFFFFF;
+
+}
+.img1{
+    position: absolute;
+    width: 192px;
+    height: 171px;
+    left: 104px;
+    top: 84px;
+    border: 1px solid #E2D9D9;
+    box-sizing: border-box;
+    background: url(anime-naruto-kakashi-hatake-wallpaper-preview.jpg);
+}
+.na{
+    position: absolute;
+    width: 192px;
+    height: 35px;
+    left: 104px;
+    top: 257px;
+
+    background: #484343;
+    border: 1px solid #E2D9D9;
+    box-sizing: border-box;
+}
+.na1{
+    position: absolute;
+    width: 177px;
+    height: 23px;
+    left: 114px;
+    top: 264px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+.abutton{
+    position: absolute;
+    width: 192px;
+    height: 102px;
+    left: 104px;
+    top: 292px;
+
+    background: #FFFFFF;
+    border: 1px solid #E2D9D9;
+    box-sizing: border-box;
+}
+.abutton1{
+    visibility: hidden;
+    position: absolute;
+    width: 192px;
+    height: 102px;
+    left: 104px;
+    top: 292px;
+    
+    transform: translateX(5px);
+    background: rgb(255, 104, 104);
+    border: 1px solid #E2D9D9;
+    box-sizing: border-box;
+}
+.aboutme:hover > .abutton1 {
+visibility: visible;
+
+
+}
+.rbutton{
+    position: absolute;
+    width: 192px;
+    height: 102px;
+    left: 104px;
+    top: 394px;
+
+    background: #FFFFFF;
+    border: 1px solid #E2D9D9;
+    box-sizing: border-box;
+}
+.rbutton1{
+    visibility: hidden;
+    position: absolute;
+    width: 192px;
+    height: 102px;
+    left: 104px;
+    top: 394px;
+    transform: translateX(5px);
+    background: rgb(255, 104, 104);
+    border: 1px solid #E2D9D9;
+    box-sizing: border-box;
+}
+.resume1:hover > .rbutton1{
+    visibility: visible;
+}
+.cbutton{
+    position: absolute;
+    width: 192px;
+    height: 102px;
+    left: 104px;
+    top: 496px;
+
+    background: #FFFFFF;
+    border: 1px solid #E2D9D9;
+    box-sizing: border-box;
+}
+.cbutton1{
+    visibility: hidden;
+    position: absolute;
+    width: 192px;
+    height: 102px;
+    left: 104px;
+    top: 496px;
+    transform: translateX(5px);
+    background: rgb(255, 104, 104);
+    border: 1px solid #E2D9D9;
+    box-sizing: border-box;
+}
+.contact1:hover > .cbutton1{
+    visibility: visible;
+}
+.img2{
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    left: 78px;
+    top: 05px;
+}
+.a{
+    position: absolute;
+    top: 40px;
+    left:50px;
+    font-size: 24px;
+    font-family: Roboto;
+    color: black;
+
+}
+.w{
+    position: absolute;
+    top: 68px;
+    left:58px;
+    font-size: 17px;
+    font-family: Roboto;
+    color:#796A6A;
+}
+.a1{
+    position: absolute;
+    top: 40px;
+    left:50px;
+    font-size: 24px;
+    font-family: Roboto;
+    color: rgb(255, 255, 255);
+    transform: translateX(5px);
+}
+.w1{
+    position: absolute;
+    top: 68px;
+    left:58px;
+    font-size: 17px;
+    font-family: Roboto;
+    color:#fffafa;
+    transform: translateX(5px);
+}
+.img3{
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    left: 83px;
+    top: 15px;
+}    
+.r{
+    position: absolute;
+    top: 50px;
+    left:58px;
+    font-size: 28px;
+    font-family: Roboto;
+    color: black;
+}
+.r1{
+    position: absolute;
+    top: 50px;
+    left:58px;
+    font-size: 28px;
+    font-family: Roboto;
+    color: rgb(255, 255, 255);
+    transform: translateX(5px);
+}
+.img4{
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    left: 78px;
+    top: 15px;
+}
+.c{
+    position: absolute;
+    top: 50px;
+    left:42px;
+    font-size: 24px;
+    font-family: Roboto;
+    color: black;
+}
+.s{
+    position: absolute;
+    top: 70px;
+    left:58px;
+    font-size: 20px;
+    font-family: Roboto;
+    color:#796A6A; 
+}
+.c1{
+    position: absolute;
+    top: 50px;
+    left:42px;
+    font-size: 24px;
+    font-family: Roboto;
+    color: rgb(255, 255, 255);
+    transform: translateX(5px);
+}
+.s1{
+    position: absolute;
+    top: 70px;
+    left:58px;
+    font-size: 20px;
+    font-family: Roboto;
+    color:#ffeeee; 
+    transform: translateX(5px);
+}
+.fbutton{
+    position: absolute;
+    width: 48px;
+    height: 50px;
+    left: 1263px;
+    top: 85px;
+
+    background: #FFFFFF;
+    border: 1px solid #928282;
+    box-sizing: border-box;
+}
+.fbutton:hover{
+    background: rgb(255, 104, 104);
+    transform: scale(1.1);
+}
+.tbutton{
+    position: absolute;
+    width: 48px;
+    height: 50px;
+    left: 1263px;
+    top: 135px;
+
+    background: #ffffff;
+    border: 1px solid #928282;
+    box-sizing: border-box;
+}
+.tbutton:hover{
+    background: rgb(255, 104, 104);
+    transform: scale(1.1);
+    
+}
+.inbutton{
+    position: absolute;
+    width: 48px;
+    height: 50px;
+    left: 1263px;
+    top: 185px;
+
+    background: #FFFFFF;
+    border: 1px solid #928282;
+    box-sizing: border-box;
+}
+.inbutton:hover{
+    background: rgb(255, 104, 104);
+    transform: scale(1.1);
+}
+.img5{
+    position: absolute;
+    width: 34px;
+    height: 34px;
+    left: 7px;
+    top: 7px;
+
+}
+.img6{
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    left: 7px;
+    top: 7px;
+}
+.img7{
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 11px;
+    top: 11px;
+}
+.rec{
+    position: absolute;
+    width: 44px;
+    height: 8px;
+    left: 450px;
+    top: 80px;
+
+    background: #FFB9B9;
+}
+.per{
+    position: absolute;
+    width: 337px;
+    height: 47px;
+    left: 358px;
+    top: 100px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 37px;
+
+    color: #000000;
+}
+.drop{
+    position: absolute;
+    width: 197px;
+    height: 197px;
+    left: 110px;
+    top: 205px;
+
+    background: #C9F0C3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+.call{
+    position: absolute;
+    width: 197px;
+    height: 197px;
+    left: 380px;
+    top: 205px;
+
+    background: #C9F0C3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+.connect{
+    position: absolute;
+    width: 197px;
+    height: 197px;
+    left: 650px;
+    top: 205px;
+
+    background: #C9F0C3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+
+}
+.rec1{
+    position: absolute;
+    width: 44px;
+    height: 8px;
+    left: 450px;
+    top: 435px;
+
+    background: #FFB9B9;
+}
+.button{
+    position: absolute;
+    width: 271px;
+    height: 70px;
+    left: 345px;
+    top: 465px;
+    border: none;
+    outline: none;
+    background: #10C6FF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    font-size: 30px;
+    
+}
+
+.button:active{
+   
+    transform: translate(-3px,-3px);
+}
+.overbutton{
+    position: relative;
+}
+
+.overlay{
+   
+    visibility: hidden;
+    position: absolute;
+    width: 818px;
+    height: 307px;
+    left: 70px;
+    top: 548px;
+    
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+}
+.overbutton:hover > .overlay{
+    visibility: visible;
+}
+.box{
+    
+    position: absolute;
+    width: 300px;
+    height: 30px;
+    left: 38px;
+    top: 57px;
+
+    background: #F1C5C5;
+}
+.box2{
+    
+position: absolute;
+width: 300px;
+height: 30px;
+left: 38px;
+top: 135px;
+
+background: #F1C5C5;
+}
+.box3{
+    
+    position: absolute;
+    width: 300px;
+    height: 30px;
+    left: 38px;
+    top: 210px;
+
+    background: #F1C5C5;
+}
+.box4{
+        position: absolute;
+        width: 300px;
+        height: 143.59px;
+        left: 441px;
+        top: 22px;
+
+        background: #E4E2E2;
+}
+.sub{
+    position: absolute;
+    width: 124px;
+    height: 50px;
+    left: 520px;
+    top: 205px;
+    font-size:20px; 
+    border: none;
+    outline: none;
+    background: #55FE8E;
+    border-radius: 50px;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.sub:hover{
+    transform: scale(1.1);
+}
+.box1{
+    position: absolute;
+    width: 80px;
+    height: 30px;
+    left: 38px;
+    top: 57px;
+
+    background: #E4E2E2;
+}
+.full{
+    position: absolute;
+    width: 82px;
+    height: 25px;
+    left: 31px;
+    top: 65px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 16px;
+    text-align: center;
+
+    color: #000000;
+}
+#full-name{
+    position: absolute;
+    width: 220px;
+    height: 30px;
+    left: 117px;
+    top: 57px;
+
+    background: #F1C5C5;
+}
+.box21{
+    position: absolute;
+    width: 80px;
+    height: 29.71px;
+    left: 38px;
+    top: 135px;
+
+    background: #E4E2E2;
+}
+.em{
+    position: absolute;
+    width: 82px;
+    height: 24.76px;
+    left: 31px;
+    top: 140.95px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 16px;
+    text-align: center;
+
+    color: #000000;
+}
+#email{
+    position: absolute;
+    width: 220px;
+    height: 30px;
+    left: 117px;
+    top: 135px;
+
+    background: #F1C5C5;
+}
+.box31{
+    position: absolute;
+    width: 80px;
+    height: 29.71px;
+    left: 38px;
+    top: 210px;
+
+    background: #E4E2E2;
+}
+.ph{
+    position: absolute;
+    width: 82px;
+    height: 24.76px;
+    left: 34px;
+    top: 218px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 16px;
+    text-align: center;
+
+    color: #000000;
+
+}
+#phone{
+    position: absolute;
+    width: 220px;
+    height: 30px;
+    left: 117px;
+    top: 210px;
+
+    background: #F1C5C5;
+}
+.box41{
+    position: absolute;
+    width: 271px;
+    height: 106.95px;
+    left: 456px;
+    top: 47.75px;
+
+    background: #F1C5C5;
+}
+.des{
+    position: absolute;
+    width: 82px;
+    height: 119.66px;
+    left: 445px;
+    top: 26.95px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+
+    color: #000000;
+}
+#Description{
+    position: absolute;
+    width: 271px;
+    height: 106.95px;
+    left: 456px;
+    top: 47.75px;
+
+    background: #F1C5C5;
+}
+.img11{
+    
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    left: 76px;
+    top: 14px;
+
+}
+.img21{
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    left: 77px;
+    top: 14px;
+}
+.img31{
+    position: absolute;
+    width: 43px;
+    height: 43px;
+    left: 75px;
+    top: 18px;
+
+}
+.dr{
+    position: absolute;
+    width: 134px;
+    height: 22px;
+    left: 60px;
+    top: 60px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 29px;
+
+    color: #000000;
+}
+.add{
+    position: absolute;
+    width: 175px;
+    height: 93px;
+    left: 15px;
+    top: 100px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+
+    color: #7A6B6B;
+}
+.ca{
+    position: absolute;
+    width: 134px;
+    height: 23px;
+    left: 30px;
+    top: 63px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 29px;
+    text-align: center;
+
+    color: #000000;
+
+}
+.mob{
+    position: absolute;
+    width: 159px;
+    height: 57px;
+    left: 25px;
+    top: 110px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 23px;
+
+    color: #7A6B6B;
+
+}
+.con{
+    position: absolute;
+    width: 191px;
+    height: 23px;
+    left: 07px;
+    top: 65px;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 29px;
+    text-align: center;
+    
+    color: #000000;
+    
+}
+.gmail{
+    position: absolute;
+    width: 190px;
+    height: 95px;
+    left: 05px;
+    top: 105px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 14px;
+
+    color: #7A6B6B;
+
+}
+.twit{
+    position: absolute;
+    width: 190px;
+    height: 95px;
+    left: 05px;
+    top: 140px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 14px;
+
+    color: #7A6B6B;
+
+
+}
+.insta{
+    position: absolute;
+    width: 190px;
+    height: 95px;
+    left: 05px;
+    top: 158px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 14px;
+
+    color: #7A6B6B;
+}
+.cobox{
+    position: absolute;
+    width: 29px;
+    height: 28px;
+    left: 636px;
+    top: 22px;
+
+    background: #FF0000;
+}
+.come{
+    position: absolute;
+width: 343px;
+height: 30px;
+left: 690px;
+top: 23px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 26px;
+line-height: 30px;
+
+color: #000000;
+
+}
